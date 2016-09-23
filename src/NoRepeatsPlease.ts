@@ -38,7 +38,7 @@ export class NoRepeats {
     };
 
      static hasRepeatedLetters(str: string): boolean {
-        var consecutive = /(.)\1/;
-        return consecutive.test(str);
+        var checkConsecutiveRegEx = /(.)\1/;
+        return checkConsecutiveRegEx.test(str);
     }
 }
